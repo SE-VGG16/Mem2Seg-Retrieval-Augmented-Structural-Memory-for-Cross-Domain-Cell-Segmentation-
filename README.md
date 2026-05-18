@@ -4,30 +4,32 @@ Mem2Seg is a lightweight retrieval-guided cell segmentation framework designed f
 Unlike conventional segmentation networks that rely solely on implicit knowledge stored in model weights, Mem2Seg explicitly separates structural knowledge storage and retrieval, enabling improved generalization across heterogeneous microscopy datasets.
 
 The framework was evaluated on multiple biomedical segmentation datasets including BCCD, TNBC, MoNuSeg2018, NuInsSeg, PanNuke, and DSB2018.
+# Project Structure
 
-Project Structure
+```text
 tools/
- ├── checkpoints/
- │    └── structure_encoder.pth
- │
- ├── outputs/
- │    ├── prototypes_k64.pt
- │    ├── all_embeddings.pt
- │    └── seg/
- │
- ├── data/
- │    ├── train/
- │    │    ├── images/
- │    │    └── masks/
- │    │
- │    └── test/
- │         ├── images/
- │         └── masks/
- │
- ├── pretrain_structure.py
- ├── build_memory_bank.py
- ├── train_segmentation.py
- └── evaluate.py
+├── checkpoints/
+│   └── structure_encoder.pth
+│
+├── outputs/
+│   ├── prototypes_k64.pt
+│   ├── all_embeddings.pt
+│   └── seg/
+│
+├── data/
+│   ├── train/
+│   │   ├── images/
+│   │   └── masks/
+│   │
+│   └── test/
+│       ├── images/
+│       └── masks/
+│
+├── pretrain_structure.py
+├── build_memory_bank.py
+├── train_segmentation.py
+└── evaluate.py
+```
 Training Pipeline
 Step 1 — Structural Representation Pretraining
 
