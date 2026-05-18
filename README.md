@@ -105,10 +105,10 @@ Top-T retrieval visualization
 Decoder feature comparison
 PMB qualitative analysis
 Key Features
-Lightweight retrieval-guided segmentation
-Prototype Memory Bank (PMB)
-Structural representation learning
-Cross-domain generalization
-Interpretable prototype retrieval
-Efficient memory-based refinement
+Lightweight retrieval-guided segmentation;
+PMB;
+Structural representation learning;
+Cross-domain generalization;
+Interpretable prototype retrieval;
+Efficient memory-based refinement;
 Compatible with multiple biomedical datasets.
