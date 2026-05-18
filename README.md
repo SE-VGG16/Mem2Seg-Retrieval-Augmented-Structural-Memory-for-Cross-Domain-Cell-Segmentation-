@@ -42,6 +42,7 @@ python tools/pretrain_structure.py
 Output:
 
 tools/checkpoints/structure_encoder.pth
+
 Step 2 — Prototype Memory Bank Construction
 
 After pretraining, embeddings are extracted from all training images and clustered using K-means to construct the Prototype Memory Bank (PMB).
