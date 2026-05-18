@@ -111,14 +111,4 @@ Structural representation learning
 Cross-domain generalization
 Interpretable prototype retrieval
 Efficient memory-based refinement
-Compatible with multiple biomedical datasets
-Citation
-
-If you use this repository in your research, please cite:
-
-@article{mem2seg2026,
-  title={Mem2Seg: Retrieval-Guided Cell Segmentation with Prototype Memory Bank},
-  author={...},
-  journal={...},
-  year={2026}
-}
+Compatible with multiple biomedical datasets.
