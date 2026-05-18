@@ -1,0 +1,18 @@
+seed: 42
+device: "cuda"   # or "cpu"
+
+image_size: 224
+
+# Memory
+num_prototypes: 256
+top_t: 8
+embed_dim: 128
+
+# Training (segmentation)
+batch_size: 4
+lr: 1e-4
+epochs: 30
+
+# Training (pretrain structure)
+pretrain_epochs: 20
+temperature: 0.1
